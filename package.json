@@ -1,0 +1,22 @@
+{
+  "name": "translate",
+  "version": "1.0.0",
+  "description": "just a translate web site",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "translate"
+  ],
+  "author": "SrCrow02",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "translate": "^2.0.2",
+    "translate-google": "^1.5.0"
+  }
+}
