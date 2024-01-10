@@ -1,5 +1,16 @@
-<form action="/traduzir" method="post">
-    <input type="text" name="texto">
-    <input type="text" name="idiomaDestino">
-    <input type="submit" value="Traduzir">
-</form>
+<div class="container-fluid">
+  <div class="row justify-content-center align-items-center vh-100">
+    <div class="col-sm-1 col-lg-4 col-md-2 text-center border rounded p-4 m-2">
+      <h1 class="mb-4">Translate</h1>
+      <form action="/traduzir" method="post">
+        <div class="form-group">
+          <input class="form-control form-control-lg mb-1" type="text" name="texto" placeholder="Text">
+        </div>
+        <div class="form-group">
+          <input class="form-control form-control-lg mt-1" type="text" name="idiomaDestino" placeholder="Language">
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg btn-block mt-3">Translate</button>
+      </form>
+    </div>
+  </div>
+</div>  

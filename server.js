@@ -6,7 +6,7 @@ import cors from "cors"
 import exphbs from "express-handlebars"
 
 const app = express();
-const PORT = 3000;
+const PORT = 5081;
 
 translate.engine = 'google';
 translate.key = 'SUA_CHAVE_DA_API_DO_GOOGLE_TRANSLATE'; 
